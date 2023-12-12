@@ -1,0 +1,120 @@
+Note: The DFS traverse is in the output of the int main , as I want to make the output file like the Test file 
+
+Number of Vertices = 14
+Number of Edges = 82
+
+Adjacency Matrix
+  0  46  46  54  85  37  45  57  80  85   0  42  26  53 
+ 46   0  83  63  29  35  60   0   0  71  24  33  84  83 
+ 46  83   0  84  43  85  55  68  44  44  80  57  82  47 
+ 54  63  84   0  53  90  86  70  77  30   0  72  60  95 
+ 85  29  43  53   0  37  60  44   0  20  69  31  75  27 
+ 37  35  85  90  37   0  85   0  82  36  43  90  81  45 
+ 45  60  55  86  60  85   0  40  38  72  23  96   0  27 
+ 57   0  68  70  44   0  40   0   0  23  66  80  38  22 
+ 80   0  44  77   0  82  38   0   0  94  76  48  33  36 
+ 85  71  44  30  20  36  72  23  94   0  90  63  64  67 
+  0  24  80   0  69  43  23  66  76  90   0  22  25  32 
+ 42  33  57  72  31  90  96  80  48  63  22   0  71   0 
+ 26  84  82  60  75  81   0  38  33  64  25  71   0  32 
+ 53  83  47  95  27  45  27  22  36  67  32   0  32   0 
+
+Graph Edges
+A B 46
+A C 46
+A D 54
+A E 85
+A F 37
+A G 45
+A H 57
+A I 80
+A J 85
+A L 42
+A M 26
+A N 53
+B C 83
+B D 63
+B E 29
+B F 35
+B G 60
+B J 71
+B K 24
+B L 33
+B M 84
+B N 83
+C D 84
+C E 43
+C F 85
+C G 55
+C H 68
+C I 44
+C J 44
+C K 80
+C L 57
+C M 82
+C N 47
+D E 53
+D F 90
+D G 86
+D H 70
+D I 77
+D J 30
+D L 72
+D M 60
+D N 95
+E F 37
+E G 60
+E H 44
+E J 20
+E K 69
+E L 31
+E M 75
+E N 27
+F G 85
+F I 82
+F J 36
+F K 43
+F L 90
+F M 81
+F N 45
+G H 40
+G I 38
+G J 72
+G K 23
+G L 96
+G N 27
+H J 23
+H K 66
+H L 80
+H M 38
+H N 22
+I J 94
+I K 76
+I L 48
+I M 33
+I N 36
+J K 90
+J L 63
+J M 64
+J N 67
+K L 22
+K M 25
+K N 32
+L M 71
+M N 32
+
+Shortest Paths from Node A
+  0  A
+  46  AB
+  46  AC
+  54  AD
+  73  ALE
+  37  AF
+  45  AG
+  57  AH
+  59  AMI
+  73  AFJ
+  51  AMK
+  42  AL
+  26  AM
+  53  AN
